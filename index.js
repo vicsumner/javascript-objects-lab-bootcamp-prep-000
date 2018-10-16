@@ -23,6 +23,12 @@ function deleteFromObjectByKey(object, key){
   return Object.assign({}, object, { object: ["key"] })
 }
 
+function destructivelyDeleteFromObjectByKey(object, key){
+  
+}
+
+
+
 
 // function removeFromPlaylist(playlist, artistName){
 //         delete playlist[artistName]

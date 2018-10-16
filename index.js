@@ -20,11 +20,11 @@ function deleteFromObjectByKey(object, key){
 }
 
 
-function deleteFromObjectByKey(object, key){
-  var newObject = Object.assign({}, object)
-  delete newObject.key
-  return 
-}
+// function deleteFromObjectByKey(object, key){
+//   var newObject = Object.assign({}, object)
+//   delete newObject.key
+//   return 
+// }
 
 function destructivelyDeleteFromObjectByKey(object, key){
   delete object[key]

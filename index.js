@@ -1,6 +1,6 @@
 var recipes = {}
-function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
-  obj[key] = value
+function updateObjectWithKeyAndValue(object, key, value) {
+  object[key] = value
  
-  return obj
+  return object
 }

@@ -24,7 +24,7 @@ function deleteFromObjectByKey(object, key){
   return object
 }
 
-Object.assign({}, meals, { breakfast: ['oatmeal', 'banana'] })
+Object.assign({}, object, { breakfast: ['oatmeal', 'banana'] })
 // function removeFromPlaylist(playlist, artistName){
 //         delete playlist[artistName]
 //         return playlist

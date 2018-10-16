@@ -6,7 +6,8 @@ function updateObjectWithKeyAndValue(object, key, value) {
   return object
 }
 
-Object.assign({object}, { foo: 'bar' })
-const object = { key: value }
+Object.assign({object}, { key: 'value' })
+
+// const object = { key: value }
  
-updateObjectWithKeyAndValue(oject, 'key', 'value')
+// updateObjectWithKeyAndValue(oject, 'key', 'value')

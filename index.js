@@ -16,7 +16,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
 
 function deleteFromObjectByKey(object, key){
    var newObject = Object.assign({}, object)
-  // delete object[key]
+   delete newObject[key]
    return newObject
 }
 
@@ -31,11 +31,3 @@ function destructivelyDeleteFromObjectByKey(object, key){
   delete object[key]
   return object
 }
-
-
-
-
-// function removeFromPlaylist(playlist, artistName){
-//         delete playlist[artistName]
-//         return playlist
-// }
